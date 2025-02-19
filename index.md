@@ -8,12 +8,12 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 {% for collection in ordered_collections %}
 <h1><a href="{{ collection.label }}">{{ collection.description }}</a></h1>
 Such as:
-{% assign post = collection.docs | first %}
-{% if post.link %}
+{%- assign post = collection.docs | first -%}
+{%- if post.link -%}
 <a href="{{ post.link }}">{{ post.title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-{% else %}
+{%- else -%}
 <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-{% endif %}
+{%- endif -%}
 {% endfor %}
 
 * [Podcasts](/podcasts)
