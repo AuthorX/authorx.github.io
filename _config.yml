@@ -92,7 +92,10 @@ defaults:
 collections:
   podcasts:
     description: "Podcasts"
+    order: 1
   games:
     description: "Games and supplements"
+    order: 2
   code:
     description: "Code projects"
+    order: 3
