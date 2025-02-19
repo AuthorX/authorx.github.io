@@ -1,6 +1,6 @@
 ---
 title: "code"
 layout: collection
-permalink: /code/
+permalink: /code
 collection: code
 ---

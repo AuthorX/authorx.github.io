@@ -1,6 +1,6 @@
 ---
 title: "Podcasts"
 layout: collection
-permalink: /podcasts/
+permalink: /podcasts
 collection: podcasts
 ---

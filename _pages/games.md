@@ -1,6 +1,6 @@
 ---
 title: "Games"
 layout: collection
-permalink: /games/
+permalink: /games
 collection: games
 ---
