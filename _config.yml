@@ -90,6 +90,9 @@ defaults:
       author_profile: true
 
 collections:
-  - podcasts
-  - games
-  - code
+  podcasts:
+    description: "Podcasts"
+  games:
+    description: "Games and supplements"
+  code:
+    description: "Code projects"
