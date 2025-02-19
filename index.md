@@ -9,7 +9,7 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 <h1><a href="{{ collection.label }}">{{ collection.description }}</a></h1>
 Such as: 
 {%- assign post = collection.docs | first -%}
-{% include archive-single.html type=include.type %}
+{%- include archive-single.html type=include.type -%}
 {%- comment -%}
 <h3 itemprop="headline">
   {%- if post.link -%}
@@ -19,5 +19,4 @@ Such as:
   {%- endif -%}
 </h3>
 {%- endcomment -%}
-{% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 {% endfor %}
