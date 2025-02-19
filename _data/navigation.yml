@@ -1,0 +1,7 @@
+main:
+  - title: "Podcasts"
+    url: /podcasts/
+  - title: "Games"
+    url: /games/
+  - title: "Code"
+    url: /code/
