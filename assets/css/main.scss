@@ -8,9 +8,6 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.inset {
+.insert {
 	margin-left: 2em;
-	h2 {
-		margin-top: 0;
-	}
 }
