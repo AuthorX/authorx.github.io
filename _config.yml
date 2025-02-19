@@ -1,3 +1,108 @@
 title: Dana Makes Stuff!
 description: Personal projects by 2x Award-Winning Podcaster Dana Lexa
-theme: jekyll-theme-cayman
+
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+bluesky_username: authorx
+github_username: authorx
+minimal_mistakes_skin: default
+search: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Dana Callista Lexa"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Dana Callista Lexa is a 2x Award-Winning Podcaster, and hobbyist in tabletop games, video games, and writing code"
+  links:
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://author-x.itch.io"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-square-bluesky"
+      url: "https://bsky.app/profile/authorx.bsky.social"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AuthorX"
+
+footer:
+  links:
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://author-x.itch.io"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-square-bluesky"
+      url: "https://bsky.app/profile/authorx.bsky.social"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AuthorX"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
