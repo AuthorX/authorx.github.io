@@ -7,11 +7,9 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 {% assign ordered_collections = site.collections | sort: order %}
 {% for collection in ordered_collections %}
 <h1><a href="{{ collection.label }}">{{ collection.description }}</a></h1>
-
+Such as:
 {% assign post = collection.docs | first %}
-
 {% include archive-single.html type=include.type %}
-
 {% endfor %}
 
 * [Podcasts](/podcasts)
