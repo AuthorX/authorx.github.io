@@ -1,5 +1,5 @@
 ---
 title: Motion and Stillness
-url: https://author-x.itch.io/motion-and-stillness
+link: https://author-x.itch.io/motion-and-stillness
 ---
 Motion and Stillness is supplement for the tabletop RPG Realis, exploring two ideas of change (or lack thereof) as expressed in the locations and peoples of two moons for players to visit or draw inspiration from.
