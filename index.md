@@ -7,7 +7,7 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 
 {% assign ordered_categories = site.categories %}
 {% for category in ordered_categories %}
-<h1><a href="/{{ category.handle }}">{{ category.handle }}</a> such as:</h1>
+<h1><a href="/{{ category[0] }}">{{ category[0] }}</a> such as:</h1>
 {%- assign post = category | first -%}
 {%- comment -%}{%- include archive-single.html type=include.type -%}{%- endcomment -%}
 
