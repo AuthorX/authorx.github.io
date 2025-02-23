@@ -5,7 +5,7 @@ title: Welcome!
 
 I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making things, and collaborating in making things, like podcasts, games, and other silly projects. Here are some of the things I've made that I'm proud of:
 
-{% assign ordered_categories = site.collections | sort: "order" %}
+{% assign ordered_categories = site.collections | where_exp: "item","item.description" | sort: "order" %}
 {% for category in ordered_categories %}
 {{category | inspect}}
 <h1><a href="/{{ category.label }}">{{ category.description }}</a> such as:</h1>
