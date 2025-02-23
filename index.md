@@ -4,11 +4,11 @@ title: Welcome!
 ---
 
 I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making things, and collaborating in making things, like podcasts, games, and other silly projects. Here are some of the things I've made that I'm proud of:
-{% comment %}
+
 {% assign ordered_categories = site.categories %}
 {% for category in ordered_categories %}
-<h1><a href="{{ category[0] }}">{{ category[0] }}</a> such as:</h1>
-{%- assign post = category[1] | first -%}
+<h1><a href="{{ category.handle }}">{{ category.handle }}</a> such as:</h1>
+{%- assign post = category | first -%}
 {%- comment -%}{%- include archive-single.html type=include.type -%}{%- endcomment -%}
 
 <div class="insert">
@@ -23,7 +23,6 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 </div>
 
 {% endfor %}
-{% endcomment %}
 
 categories object:
 
