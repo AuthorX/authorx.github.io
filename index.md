@@ -7,7 +7,6 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 
 {% assign ordered_categories = site.collections | where_exp: "item","item.description" | sort: "order" %}
 {% for category in ordered_categories %}
-{{category | inspect}}
 <h1><a href="/{{ category.label }}">{{ category.description }}</a> such as:</h1>
 {%- assign post = site.categories[category.label] | first -%}
 {%- comment -%}{%- include archive-single.html type=include.type -%}{%- endcomment -%}
@@ -24,7 +23,3 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 </div>
 
 {% endfor %}
-
-categories object:
-
-{{ site.categories | inspect}}
