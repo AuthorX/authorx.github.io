@@ -7,6 +7,7 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 
 {% assign ordered_categories = site.categories %}
 {% for category in ordered_categories %}
+{{category | inspect}}
 <h1><a href="/{{ category[0] }}">{{ category[0] }}</a> such as:</h1>
 {%- assign post = category[1] | first -%}
 {%- comment -%}{%- include archive-single.html type=include.type -%}{%- endcomment -%}
@@ -26,4 +27,4 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 
 categories object:
 
-{{ site.categories }}
+{{ site.categories | inspect}}
