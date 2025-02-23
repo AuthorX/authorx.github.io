@@ -5,11 +5,11 @@ title: Welcome!
 
 I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making things, and collaborating in making things, like podcasts, games, and other silly projects. Here are some of the things I've made that I'm proud of:
 
-{% assign ordered_categories = site.categories %}
+{% assign ordered_categories = site.collections | sort: "order" %}
 {% for category in ordered_categories %}
 {{category | inspect}}
-<h1><a href="/{{ category[0] }}">{{ category[0] }}</a> such as:</h1>
-{%- assign post = category[1] | first -%}
+<h1><a href="/{{ category.label }}">{{ category.description }}</a> such as:</h1>
+{%- assign post = site.categories[category.label] | first -%}
 {%- comment -%}{%- include archive-single.html type=include.type -%}{%- endcomment -%}
 
 <div class="insert">
