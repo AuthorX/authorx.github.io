@@ -18,8 +18,8 @@ description: Personal projects by 2x Award-Winning Podcaster Dana Lexa
 # in the templates via {{ site.myvariable }}.
 bluesky_username: authorx
 github_username: authorx
-minimal_mistakes_skin: default
-search: true
+minimal_mistakes_skin: mint
+search: false
 
 # Build settings
 markdown: kramdown
@@ -86,7 +86,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      publish: false
+      published: false
 
 collections:
   podcasts:
