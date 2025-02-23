@@ -1,6 +1,6 @@
 ---
-title: "code"
-layout: collection
+title: "Code"
+layout: category
 permalink: /code
-collection: code
+taxonomy: code
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Podcasts"
-layout: collection
+layout: category
 permalink: /podcasts
-collection: podcasts
+taxonomy: podcasts
 ---

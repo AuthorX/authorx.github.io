@@ -1,6 +1,6 @@
 ---
 title: "Games"
-layout: collection
+layout: category
 permalink: /games
-collection: games
+taxonomy: games
 ---
