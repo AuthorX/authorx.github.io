@@ -18,7 +18,7 @@ description: Personal projects by 2x Award-Winning Podcaster Dana Lexa
 # in the templates via {{ site.myvariable }}.
 bluesky_username: authorx
 github_username: authorx
-minimal_mistakes_skin: "mint"
+minimal_mistakes_skin: "aqua"
 search: false
 
 # Build settings
