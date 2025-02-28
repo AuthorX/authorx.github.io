@@ -55,5 +55,3 @@ Examples of play:
 
 ![Example of a letter written in a notebook describing finding a "Dependant Slime" on Day 1](/assets/images/2022-03-31-twittergames_a.jpg)
 ![Example of a letter written in a notebook describing finding a "Reflective Slime" on Day 8](/assets/images/2022-03-31-twittergames_b.jpg)
-
-{%- include gallery id="gallery_slimerancher" caption="Some pages I wrote using Slime Rancher RPG" -%}
