@@ -1,5 +1,6 @@
 ---
 title: Twitter RPGs
+layout: single
 gallery_slimerancher:
   - url: /assets/images/2022-03-31-twittergames_a.jpg
     image_path: /assets/images/2022-03-31-twittergames_a.jpg
