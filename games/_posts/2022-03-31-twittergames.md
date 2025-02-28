@@ -53,4 +53,4 @@ Example of play:
 
 Examples of play:
 
-{% include gallery id="gallery_slimerancher" caption:"Some pages I wrote using Slime Rancher RPG" %}
+{% include gallery id="gallery_slimerancher" caption="Some pages I wrote using Slime Rancher RPG" %}
