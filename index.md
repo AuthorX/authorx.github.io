@@ -14,7 +14,7 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 <div class="insert">
 <h2>
   {%- if post.link -%}
-  <a href="{{ post.link }}">{{ post.title }}<i class="fas fa-arrow-up-right-from-square" aria-hidden="true" title="external link"></i></a>
+  <a href="{{ post.link }}">{{ post.title }} <i class="fas fa-2xs fa-arrow-up-right-from-square" aria-hidden="true" title="external link"></i></a>
   {%- else -%}
   <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
   {%- endif -%}

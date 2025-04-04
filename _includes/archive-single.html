@@ -19,7 +19,7 @@
     {% endif %}
     <h2 class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}<i class="fas fa-arrow-up-right-from-square" aria-hidden="true" title="external link"></i></a>
+        <a href="{{ post.link }}">{{ title }} <i class="fas fa-2xs fa-arrow-up-right-from-square" aria-hidden="true" title="external link"></i></a>
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
