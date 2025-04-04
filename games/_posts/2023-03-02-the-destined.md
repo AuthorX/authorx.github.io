@@ -1,5 +1,5 @@
 ---
-title: The Destined: A Masks Playbook
+title: "The Destined: A Masks Playbook"
 link: https://author-x.itch.io/the-destined
 ---
 

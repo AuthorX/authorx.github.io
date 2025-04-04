@@ -1,5 +1,5 @@
 ---
-title: The Anomaly: An Interstitial 2E Playbook
+title: "The Anomaly: An Interstitial 2E Playbook"
 link: https://author-x.itch.io/the-anomaly
 ---
 
