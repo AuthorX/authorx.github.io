@@ -1,6 +1,7 @@
 ---
 author_profile: true
 title: Welcome!
+layout: archive
 ---
 
 I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making things, and collaborating in making things, like podcasts, games, and other silly projects. Here are some of the things I've made that I'm proud of:
