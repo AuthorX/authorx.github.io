@@ -1,5 +1,7 @@
 ---
 title: Twitter RPGs
+header:
+  teaser: /assets/images/games/twittergames.png
 ---
 
 A few times, I've been inspired to write a micro RPG directly on twitter. Given the slow death of the platform, I wanted to preserve them here.
