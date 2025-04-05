@@ -12,6 +12,11 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 {%- comment -%}{%- include archive-single.html type=include.type -%}{%- endcomment -%}
 
 <div class="insert">
+{% if post.header.teaser %}
+      <div class="archive__item-teaser">
+        <img src="{{ post.header.teaser | relative_url }}" alt="">
+      </div>
+{% endif %}
 <h2>
   {%- if post.link -%}
   <a href="{{ post.link }}">{{ post.title }} <i class="fas fa-2xs fa-arrow-up-right-from-square" aria-hidden="true" title="external link"></i></a>
