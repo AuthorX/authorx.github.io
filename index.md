@@ -10,8 +10,8 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 {% for collection in ordered_collections %}
 <h1><a href="/{{ collection.label }}">{{ collection.description }}</a> such as:</h1>
 {%- assign post = site.categories[collection.label] | first -%}
-{%- comment -%}{%- include archive-single.html type=include.type -%}{%- endcomment -%}
-
+{%- include archive-single.html type=include.type -%}
+{%- comment -%}
 <div class="insert">
 {% if post.header.teaser %}
       <div class="archive__item-teaser">
@@ -27,5 +27,6 @@ I'm Dana Callista Lexa, also known on some platforms as @authorx. I like making 
 </h2>
   {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 </div>
+{%- endcomment -%}
 
 {% endfor %}
