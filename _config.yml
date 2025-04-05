@@ -96,3 +96,5 @@ collections:
   code:
     description: "Code projects"
     order: 3
+
+teaser: /assets/images/empty_1x1.png
