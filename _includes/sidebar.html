@@ -15,15 +15,6 @@
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
-  {% if page.webring %}
-    <div class="webring">
-        <p>This site is a member of Deimos Jazz Club 🌑🎷</p>
-        <div style="display: flex">
-            <a href="https://webri.ng/webring/deimos/previous?via=http%3A%2F%2Fdanamak.es%2F">Previous Site</a>
-            <a href="https://webri.ng/webring/deimos/random?via=http%3A%2F%2Fdanamak.es%2F">Random Site</a>
-            <a href="https://webri.ng/webring/deimos/next?via=http%3A%2F%2Fdanamak.es%2F">Next Site</a>
-        </div>
-    </div>
-    {% endif %}
+  {% if page.webring %}{% include webring.html %}{% endif %}
   </div>
 {% endif %}
