@@ -13,10 +13,19 @@ search: false
 		margin-top: 0;
 	}
 }
+
+.list__item {
+    overflow: auto;
+}
+
 .archive__item-teaser {
     width: 20%;
     float: left;
     padding: .5em;
+}
+
+archive__item-title {
+    margin: 0em;
 }
 .webring {
 	 border: 2px outset;
