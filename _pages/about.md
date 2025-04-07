@@ -6,7 +6,7 @@ sidebar: true
 classes: wide
 ---
 
-Hello! I'm Dana Callista Lexa (feel free to call my any of those), a trans woman in the tabletop RPG and AP podcast space. I've also use the handle "AuthorX" since the early 00's (if you remember the Bob and George forums - hello, fellow old person!) so if you see someone with that handle, there's a good chance that's me as well.
+Hello! I'm Dana Callista Lexa (feel free to call my any of those names), a trans woman in the tabletop RPG and AP podcast space. I've also use the handle "AuthorX" since the early 00's (if you remember the Bob and George forums - hello, fellow old person!) so if you see someone with that handle, there's a good chance that's me as well.
 
 I mostly just exist online as a hobbyist and hang out with friends, but tabletop rpgs and podcasts are a common interest, and I have the pleasure of being on a few podcasts as well, and occasionally make small RPG products, like one-pager RPGs or supplements for existing games. Because of the transient nature of online social spaces - having moved from tumblr to twitter to cohost (rip) and now bluesky - I decided to make a personal site to collect those projects in one place (in some cases, linking to where you can find them, in other cases preserving them here).
 
