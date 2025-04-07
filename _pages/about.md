@@ -2,6 +2,8 @@
 title: "About Me"
 layout: single
 permalink: /myself
+sidebar: true
+classes: wide
 ---
 
 Hello! I'm Dana Callista Lexa (feel free to call my any of those), a trans woman in the tabletop RPG and AP podcast space. I've also use the handle "AuthorX" since the early 00's (if you remember the Bob and George forums - hello, fellow old person!) so if you see someone with that handle, there's a good chance that's me as well.
