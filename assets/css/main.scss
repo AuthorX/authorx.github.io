@@ -22,10 +22,13 @@ search: false
 .webring {
 	 border: 2px outset;
 	 text-align: center;
+	 margin-left: 0.5em;
+	 margin-right: 0.5em;
 	 p, a {
 		flex: 1;
 		margin: 0;
 		padding: 0.1em;
 		border: 2px inset;
+		border-color: lightgrey;
 	 }
 }
