@@ -19,3 +19,13 @@ search: false
     float: left;
     padding: .5em;
 }
+.webring {
+	 border: 2px outset;
+	 text-align: center;
+	 p, a {
+		flex: 1;
+		margin: 0;
+		padding: 0.1em;
+		border: 2px inset;
+	 }
+}
