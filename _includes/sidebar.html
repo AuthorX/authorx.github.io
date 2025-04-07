@@ -15,6 +15,7 @@
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
+  {% if page.webring %}
     <div class="webring">
         <p>This site is a member of Deimos Jazz Club 🌑🎷</p>
         <div style="display: flex">
@@ -24,4 +25,5 @@
         </div>
     </div>
   </div>
+  {% endif %}
 {% endif %}
