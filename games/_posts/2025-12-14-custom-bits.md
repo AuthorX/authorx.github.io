@@ -24,3 +24,5 @@ To use:
 3. Once the game has loaded, select the pencil icon to the top-left of the Bit character screen.
 4. Select the "bitConfig.ini" file from the unzipped folder.
 5. (optionally) Open the Berserk BITS game files and replace data/babble.json with the babble.json file included in the zip to have your Bit say official VIX-13 Catchphrases like, "Got any cigarettes?"
+
+Following these easy steps will capture Vixie's soul and imprison it in your desktop!
